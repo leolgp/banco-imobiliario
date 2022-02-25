@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Imobiliário</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="https://kit.fontawesome.com/13b060ec27.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="tabuleiro">
+
+        <section class="right">
+            
+            <div class="rectangle">
+                <div class="verde"></div>
+                    <div class="descricao">copacabana</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>260</div>  
+                </div>  
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia de aviação
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="verde"></div>
+                    <div class="descricao">av.vieira souto</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>320</div>  
+                </div>  
+            </div>
+            
+            <div class="rectangle">
+                <div class="verde"></div>
+                    <div class="descricao">av.atlântica</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>300</div>  
+                </div>  
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-helicopter"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia de taxi-aéreo
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="verde"></div>
+                    <div class="descricao">ipanema</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>300</div>  
+                </div>  
+            </div>
+
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="roxo"></div>
+                    <div class="descricao">jardim paulista</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>260</div>  
+                </div>  
+            </div>
+
+            <div class="rectangle">
+                <div class="roxo"></div>
+                    <div class="descricao">brooklin</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>260</div>  
+                </div>  
+            </div>
+
+        </section>
+
+        <section class="top">
+          
+            <div class="square-parada">
+                <div id="parada">P</div>
+                <p>PARADA LIVRE</p> 
+            </div>
+
+            <div class="rectangle">
+                <div class="vermelho"></div>
+                    <div class="descricao">flamengo</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>130</div>  
+                </div>  
+            </div>
+
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="vermelho"></div>
+                    <div class="descricao">botafogo</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>100</div>  
+                </div>  
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-address-card" id="ir"></i>
+                </div>
+                <div class="cia-descricao">
+                imposto de renda
+                </div>
+                <div class="cia-valor">
+                    <div>pague</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-ship"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia de navegação
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>150</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="amarelo"></div>
+                    <div class="descricao">av.brasil</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>160</div>  
+                </div>  
+            </div>
+
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="amarelo"></div>
+                    <div class="descricao">av.paulista</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>160</div>  
+                </div>  
+            </div>
+
+            <div class="rectangle">
+                <div class="amarelo"></div>
+                    <div class="descricao">av.jardim europa</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>160</div>  
+                </div>  
+            </div>
+
+            <div class="square">
+                <i class="fa-solid fa-circle-chevron-left" id="va"></i>
+                <p>vá para a prisão</p> 
+            </div>
+
+        </section>
+
+        <section class="left">
+
+            
+
+            <div class="rectangle">
+                <div class="laranja"></div>
+                    <div class="descricao-left">morumbi</div>
+                    <div class="valor-left">
+                    <div>preço</div>
+                    <div>400</div>  
+                </div>  
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                </div>
+                <div class="cia-descricao">
+                Lucros ou dividendos
+                </div>
+                <div class="cia-valor">
+                    <div>receba</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="laranja"></div>
+                    <div class="descricao">interlagos</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>350</div>  
+                </div>  
+            </div>
+
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-taxi"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia de viação
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="azul-escuro"></div>
+                    <div class="descricao">av.pacaembu</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>180</div>  
+                </div>  
+            </div>
+
+            <div class="rectangle">
+                <div class="azul-escuro"></div>
+                    <div class="descricao">av.augusta</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>180</div>  
+                </div>  
+            </div>
+
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="azul-escuro"></div>
+                    <div class="descricao">av.europa</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>200</div>  
+                </div>  
+            </div>
+
+        </section>
+
+        <section class="bottom">
+
+            <div class="square">
+                <i id="prisao" class="fa-solid fa-user-tie"><p>PRISÃO</p></i>
+                <div>visitantes</div>   
+            </div>
+
+            <div class="rectangle">
+                <div class="azul"></div>
+                    <div class="descricao">av.9 de julho</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>220</div>  
+                </div>  
+            </div>
+
+            <div class="rectangle">
+                <div class="azul"></div>
+                    <div class="descricao">av.rebouças</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>220</div>  
+                </div>  
+            </div>
+            
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-bus-simple"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia de viação
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>200</div>
+                </div>
+            </div>
+            
+            <div class="rectangle">
+                <div class="azul"></div>
+                    <div class="descricao">av.brigadeiro faria lima</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>240</div>  
+                </div>  
+            </div>
+
+            <div class="cia">
+                <div>
+                    <i class="fa-solid fa-train-subway"></i>
+                </div>
+                <div class="cia-descricao">
+                companhia ferroviária
+                </div>
+                <div class="cia-valor">
+                    <div>preço</div>
+                    <div>200</div>
+                </div>
+            </div>
+
+            <div class="rectangle">
+                <div class="rosa"></div>
+                    <div class="descricao">AV. nossa s. de copacabana</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>40</div>  
+                </div>  
+            </div>
+            
+            <div class="rectangle">
+                <div class="rosa"></div>
+                    <div class="descricao">AV. presidente vargas</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>60</div>  
+                </div>  
+            </div>
+            
+            <div class="luck">
+                <div>
+                <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <div class="luck-descricao">
+                sorte-revés
+                </div>
+            </div>
+            
+            <div class="rectangle">
+                <div class="rosa"></div>
+                    <div class="descricao">Leblon</div>
+                    <div class="valor">
+                    <div>preço</div>
+                    <div>100</div>  
+                </div>  
+            </div>
+
+            <div class="square">
+                <i id="partida" class="fa-solid fa-square-caret-left"></i>  
+                <div>ponto de partida</div> 
+                <div>receba 200</div>   
+            </div>
+
+            
+        </section>
+
+    </div>
+</body>
+</html>
